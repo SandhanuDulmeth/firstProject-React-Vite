@@ -2,8 +2,11 @@ import ProductItem from './ProductItem'
 export default function Product() {
     return (
         <>
-            <div className="product">Product welcome</div>
-            <ProductItem/>
+            <div className="product">
+              <h1>Product welcome</h1>  
+                <ProductItem/>
+                </div>
+          
         </>
     );
 }
