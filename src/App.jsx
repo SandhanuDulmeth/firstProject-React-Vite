@@ -4,6 +4,7 @@ import './App.css'
 import Product from './Products'
 import Home from './Home'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import Navigation from './Navigation'
 
 
 function App() {
@@ -16,15 +17,8 @@ function App() {
 
 
       <BrowserRouter>
-<ul>
-  <li>
-    <Link to="/home">Home</Link>
-  </li>
-  <li>
-    <Link to="/products">Products</Link>
-  </li>
-</ul>
-       
+        <Navigation />
+
 
         <Routes>
           <Route path="/home" element={<Home />} />
