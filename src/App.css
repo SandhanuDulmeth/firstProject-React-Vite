@@ -10,6 +10,11 @@
   height: 400px;
   background-color: #a21616;
   font-size: 50px;
+  display : flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 20px;
+
 }
 
 .product-item{
