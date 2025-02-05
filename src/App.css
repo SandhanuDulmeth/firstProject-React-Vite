@@ -18,8 +18,8 @@
 }
 
 .product-item{
-  width: 15%;
+  width: 25%;
   
- background-color: blue;
+ background-color: rgb(18, 70, 119);
   font-size: 20px;
 }

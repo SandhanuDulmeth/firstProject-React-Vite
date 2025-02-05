@@ -1,8 +1,9 @@
-export default function ProductItem() {
+export default function ProductItem(props) {
     return (
         <>
             <div className="product-item">
-                <h1>Item 01</h1>
+                <h1>{props.name}</h1>
+                <h2>{props.price}</h2>
             </div>
 
         </>
