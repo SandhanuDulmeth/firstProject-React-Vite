@@ -4,7 +4,7 @@ export default function Product() {
         <>
             <div className="product">
               <h1>Product welcome</h1>  
-                <ProductItem/>
+              <ProductItem/>  <ProductItem/>
                 </div>
           
         </>
