@@ -1,7 +1,10 @@
 export default function ProductItem() {
     return (
         <>
-           <h1>Item 01</h1>
+            <div className="product-item">
+                <h1>Item 01</h1>
+            </div>
+
         </>
     );
 }
