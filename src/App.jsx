@@ -4,6 +4,7 @@ import './App.css'
 import Product from './Products'
 import Home from './Home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import ProductItem from './ProductItem'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,8 @@ function App() {
      </Routes>
      </BrowserRouter>
     
+
+    <ProductItem/>
     </>
   )
 }
