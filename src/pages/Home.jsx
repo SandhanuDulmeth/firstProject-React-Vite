@@ -1,9 +1,14 @@
+
+import React, { useState } from 'react';
+
 export default function Home() {
 
+    const [count, setCount] = useState(0);
+  
+    function incrementCount() {
+      setCount(prevCount => prevCount + 1);
+    }
 
-function printSomthing() { 
-       console.log("I am clicked");
-  }
 
 
 
@@ -12,9 +17,9 @@ function printSomthing() {
     return (
         <>
             <div className="home">
-                Welcome to the home page!
+               <h1>Welcome to the home page! {count}</h1> 
                 <br />
-                <button onClick={printSomthing}>click Me </button>
+                <button onClick={incrementCount}>click Me </button>
                 
                 
                 
