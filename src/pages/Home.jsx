@@ -16,7 +16,7 @@ export default function Home() {
 
     return (
         <>
-            <div className="home">
+            <div className="home" onMouseEnter={() => console.log('Mouse entered')}>
                <h1>Welcome to the home page! {count}</h1> 
                 <br />
                 <button onClick={incrementCount}>click Me </button>
