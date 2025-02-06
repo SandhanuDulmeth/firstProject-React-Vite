@@ -1,4 +1,4 @@
-import ProductItem from './ProductItem'
+import ProductItem from '../components/ProductItem'
 export default function Product() {
     return (
         <>

@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
 import './App.css'
-import Product from './Products'
-import Home from './Home'
+import Product from './pages/Products'
+import Home from './pages/Home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Navigation from './Navigation'
+import Navigation from './components/Navigation'
 
 
 function App() {
