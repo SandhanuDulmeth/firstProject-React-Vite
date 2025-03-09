@@ -11,6 +11,9 @@ export default function Navigation() {
                 <li>
                     <Link to="/products">Products</Link>
                 </li>
+                <li>
+                    <Link to="/checkBox">Check Box</Link>
+                </li>
             </ul>
         </>
     );

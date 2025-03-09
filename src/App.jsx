@@ -5,6 +5,8 @@ import Product from './pages/Products'
 import Home from './pages/Home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navigation from './components/Navigation'
+import CheckBox from './pages/CheckBox' 
+
 
 
 function App() {
@@ -22,7 +24,9 @@ function App() {
 
         <Routes>
           <Route path="/home" element={<Home />} />
-          <Route path="/products" element={<Product />} />
+          <Route path="/products" element={<Product />} />     
+          <Route path="/checkBox" element={<CheckBox />} />
+
         </Routes>
       </BrowserRouter>
 
