@@ -14,7 +14,11 @@ export default function Navigation() {
                 <li>
                     <Link to="/checkBox">Check Box</Link>
                 </li>
+                <li>
+                    <Link to="/profile">Profile</Link>
+                </li>
             </ul>
+
         </>
     );
 }
